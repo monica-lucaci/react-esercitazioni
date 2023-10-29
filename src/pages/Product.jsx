@@ -3,7 +3,7 @@ import { useFetch } from "../hooks/useFetch";
 
 const Product = () => {
   const { id } = useParams();
-  const { data, error } = useFetch(`https://dummyjson.com/products/1`);
+  const { data, error } = useFetch(`https://dummyjson.com/products/${id}`);
 
   return (
     <>
