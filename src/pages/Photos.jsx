@@ -6,7 +6,7 @@ const Photos = () => {
   const [photos, setPhotos] = useState([]);
   const [tbody, setTbody] = useState([]);
   const [page, setPage] = useState(1);
-  const [limit, setLimit] = useState(1000);
+  const [limit, setLimit] = useState(100);
   const [loading, setLoading] = useState(false);
 
   const getTotalPages = () => {

@@ -5,7 +5,8 @@ const DefaultLayout = () => {
     <>
       <nav>
         <Link to="/">Home</Link> | <Link to="/users">Users</Link> |{" "}
-        <Link to="/comments">Comments</Link> | <Link to="/photos">Photos</Link>
+        <Link to="/comments">Comments</Link> | <Link to="/photos">Photos</Link>{" "}
+        | <Link to="/products">Products</Link>
       </nav>
       <div>
         <Outlet />
